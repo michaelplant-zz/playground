@@ -14,6 +14,6 @@ jQuery(function($){
                 obj = {name:fieldName,message:message};
             // trigger custom event
             console.log(e.currentTarget,obj);
-            $(e.currentTarget).trigger('invalid form submit',[{test:'test'}}]);
+            $(e.currentTarget).trigger('invalid form submit',[{test:'test'}]);
         });
 });
